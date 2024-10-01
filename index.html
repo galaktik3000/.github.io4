@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<body>
+    <div class="header mb-5" id="product">
+        <img src="pictures/header-img.png" alt="" class="header_img">
+        <div class="container position-relative">
+            <div class="row">
+                <nav class="navbar navbar-expand-lg mt-sm-2 mt-md-4 mb-4 mb-lg-5">
+                    <div class="container">
+                      <img src="pictures/logo.png" alt="" class="logo align-self-lg-center">
+                      <button class="navbar-toggler burger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                          <li class="nav-item align-self-lg-center align-self-end">
+                            <a class="nav-link" aria-current="page" href="#product">Product</a>
+                          </li>
+                          <li class="nav-item align-self-lg-center align-self-end">
+                            <a class="nav-link" href="#services">Services</a>
+                          </li>
+                          <li class="nav-item align-self-lg-center align-self-end">
+                            <a class="nav-link" href="#about">About</a>
+                          </li>
+                          <li class="nav-item align-self-end">
+                            <a class="nav-link login" href="#"><button class="btn btn-primary nav_btn px-4" data-bs-toggle="modal" data-bs-target="#exampleModal">Log In</button></a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="exampleModalLabel">Log In</h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="row mb-3">
+                                            <div class="col">
+                                              <input type="text" onkeypress="noDigits(event)" class="form-control w-100" placeholder="First Name" aria-label="First Name">
+                                            </div>
+                                            <div class="col">
+                                              <input type="text" onkeypress="noDigits(event)" class="form-control w-100" placeholder="Last Name" aria-label="Last name">
+                                            </div>
+                                        </div>
+                                        <div class="mb-3">
+                                          <input type="email" class="form-control w-100" id="exampleInputEmail1" placeholder="Email" aria-describedby="emailHelp">
+                                        </div>
+                                        <div class="mb-3">
+                                            <input type="password" class="form-control w-100" id="exampleInputPassword1" placeholder="Password" aria-label="Password">
+                                          </div>
+                                        <div class="mb-3 form-check">
+                                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                          <label class="form-check-label form_check" for="exampleCheck1">Consent to the processing of personal data</label>
+                                        </div>
+                                        <button type="reset" class="btn btn-secondary btn_modal_1 me-3">Reset</button>
+                                        <button type="submit" class="btn btn-primary btn-modal-2" data-bs-dismiss="modal">Log In</button>
+                                    </form>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-12 col-md-6 align-self-center">
+                    <p class="menu_text_1 text-white text-center text-md-start">Save time by building  fast with Boldo Template </p>
+                    <p class="menu_text_2 text-white text-center text-md-start">Funding handshake buyer business-to-business metrics iPad partnership. First mover advantage innovator success deployment non-disclosure.</p>
+                    <div class="menu_button d-flex flex-row mt-5 mb-5 justify-content-center justify-content-md-start">
+                        <button class="btn btn-primary menu_btn_1 px-4 px-md-5 py-2 text-nowrap me-4" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Sorry, this action is not available right now">Buy template</button>
+                        <button class="btn btn-primary menu_btn_2 px-4 px-md-5 py-2 text-nowrap">Explore</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 align-self-center">
+                    <div class="row">
+                        <div class="col-12 mb-4 d-flex justify-content-center">
+                            <img src="pictures/menu-img-1.png" alt="" class="menu_img_1 ms-md-2">
+                        </div>
+                        <div class="col-6 d-flex justify-content-center">
+                            <img src="pictures/menu-img-2.png" alt="" class="menu_img_2 ms-md-2">
+                        </div>
+                        <div class="col-6 d-flex justify-content-center">
+                            <img src="pictures/menu-img-3.png" alt="" class="menu_img_3">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <img src="pictures/Logo-Wall.png" alt="" class="mb-4 mb-md-5">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="services mb-5" id="services">
+        <div class="container">
+            <div class="row">
+                <p class="services_text_1 text-center">Our Services</p>
+                <p class="services_text_2 text-center mb-4 mb-md-5">Handshake infographic mass market crowdfunding iteration.</p>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-4 mb-5 mb-md-0 d-md-flex">
+                    <div class="d-flex flex-column">
+                        <div class="d-flex justify-content-center justify-content-md-start">
+                            <img src="pictures/services-img-1.png" alt="" class="services_img mb-4">
+                        </div>
+                        <div class="services_text">
+                            <p class = "services_text_3 text-center text-md-start">Cool feature title</p>
+                            <p class = "services_text_4 text-center text-md-start mb-4">Learning curve network effects return on investment.</p>
+                            <p class = "services_text_5 text-center text-md-start">Explore page <span class = "arrow ms-auto mb-2">&#8594;</span></p>
+                            <div class="line mx-auto mx-md-0"></div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-12 col-md-4 mb-5 mb-md-0 d-md-flex">
+                    <div class="d-flex flex-column">
+                        <div class="d-flex justify-content-center justify-content-md-start">
+                            <img src="pictures/services-img-2.png" alt="" class="services_img mb-4">
+                        </div>
+                        <div class="services_text">
+                            <p class = "services_text_3 text-center text-md-start">Cool feature title</p>
+                            <p class = "services_text_4 text-center text-md-start mb-4">Learning curve network effects return on investment.</p>
+                            <p class = "services_text_5 text-center text-md-start">Explore page <span class = "arrow ms-auto mb-2">&#8594;</span></p>
+                            <div class="line mx-auto mx-md-0"></div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-12 col-md-4 mb-5 mb-md-0 d-md-flex">
+                    <div class="d-flex flex-column">
+                        <div class="d-flex justify-content-center justify-content-md-start">
+                            <img src="pictures/services-img-3.png" alt="" class="services_img mb-4">
+                        </div>
+                        <div class="services_text">
+                            <p class = "services_text_3 text-center text-md-start">Cool feature title</p>
+                            <p class = "services_text_4 text-center text-md-start mb-4">Learning curve network effects return on investment.</p>
+                            <p class = "services_text_5 text-center text-md-start">Explore page <span class = "arrow ms-auto mb-2">&#8594;</span></p>
+                            <div class="line mx-auto mx-md-0"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="about mb-5" id="about">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-12 col-md-6 position-relative">
+                    <img src="pictures/about-img-1.png" alt="" class="about_img_1 mt-md-5">
+                    <img src="pictures/about-img-2.png" alt="" class="position-absolute about-img-5">
+                </div>
+                <div class="col-12 col-md-6 align-self-center mt-4 mt-md-5">
+                    <p class="about_text_1 mb-4 mb-md-5">We connect our customers with the best, and help them keep up-and stay open.</p>
+                    <div class="d-flex flex-row mb-4">
+                        <img src="pictures/done.png" alt="" class="about_img_3 me-4">
+                        <p class="about_text_2 m-0 align-self-center">We connect our customers with the best.</p>
+                    </div>
+                    <div class="d-flex flex-row mb-4">
+                        <img src="pictures/done.png" alt="" class="about_img_3 me-4">
+                        <p class="about_text_2 m-0 align-self-center">Advisor success customer launch party.</p>
+                    </div>
+                    <div class="d-flex flex-row mb-4 mb-md-5">
+                        <img src="pictures/done.png" alt="" class="about_img_3 me-4">
+                        <p class="about_text_2 m-0 align-self-center">Business-to-consumer long tail.</p>
+                    </div>
+                    <button class="btn btn-primary about_btn px-4 px-md-5 py-2 text-nowrap">Start now</button>
+                </div>
+            </div>
+
+            <div class="row d-flex flex-column-reverse flex-md-row">
+                <div class="col-12 col-md-6 align-self-center mt-4 mt-md-5">
+                    <p class="about_text_1 mb-4 mb-md-5 text-end text-md-start">We connect our customers with the best, and help them keep up-and stay open.</p>
+                    <div class="d-flex flex-row mb-4 justify-content-end justify-content-md-start">
+                        <img src="pictures/done.png" alt="" class="about_img_3 me-4">
+                        <p class="about_text_2 m-0 align-self-center">We connect our customers with the best.</p>
+                    </div>
+                    <div class="d-flex flex-row mb-4 justify-content-end justify-content-md-start">
+                        <img src="pictures/done.png" alt="" class="about_img_3 me-4">
+                        <p class="about_text_2 m-0 align-self-center">Advisor success customer launch party.</p>
+                    </div>
+                    <div class="d-flex flex-row mb-4 mb-md-5 justify-content-end justify-content-md-start">
+                        <img src="pictures/done.png" alt="" class="about_img_3 me-4">
+                        <p class="about_text_2 m-0 align-self-center">Business-to-consumer long tail.</p>
+                    </div>
+                    <div class="contact_button d-flex justify-content-end justify-content-md-start">
+                        <button class="btn btn-primary about_btn px-4 px-md-5 py-2 text-nowrap">Start now</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 position-relative d-flex justify-content-end">
+                    <img src="pictures/about-img-3.png" alt="" class="about_img_1 mt-md-5">
+                    <img src="pictures/about-img-4.png" alt="" class="position-absolute about-img-6">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="website mb-5">
+        <div class="container">
+            <div class="row">
+                <p class="website_text_1 text-white mt-5">An enterprise template to ramp <br> up your company website</p>
+            </div>
+            <div class="row mt-5">
+                <div class="col-12 mb-5">
+                    <div id="carouselExampleFade" class="carousel carousel-dark slide carousel-fade slider_color">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <div class="slider justify-content-center">
+                                <div class="row">
+                                    <div class="col-12 col-md-4">
+                                        <div class="d-block d-none d-md-block slider_2 bg-white  p-4">
+                                            <p class="website_text_2 mb-5">“Buyer buzz partner network disruptive non-disclosure agreement business”</p>
+                                            <div class="d-flex flex-row">
+                                                <img src="pictures/footer-img-1.png" alt="" class="website_img">
+                                                <div class="d-flex flex-column align-self-center">
+                                                    <p class="website_text_3 m-0">Albus Dumbledore</p>
+                                                    <p class="website_text_4 m-0">Manager @ Howarts</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <div class="d-block slider_2 bg-white p-4">
+                                            <p class="website_text_2 mb-5">“Learning curve infrastructure value proposition advisor strategy user experience hypotheses investor.”</p>
+                                            <div class="d-flex flex-row">
+                                                <img src="pictures/footer-img-2.png" alt="" class="website_img">
+                                                <div class="d-flex flex-column align-self-center">
+                                                    <p class="website_text_3 m-0">Severus Snape</p>
+                                                    <p class="website_text_4 m-0">Manager @ Slytherin</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <div class="d-block d-none d-md-block slider_2 bg-white p-4">
+                                            <p class="website_text_2 mb-5">“Release facebook responsive web design business model canvas seed money monetization.”</p>
+                                            <div class="d-flex flex-row">
+                                                <img src="pictures/footer-img-3.png" alt="" class="website_img">
+                                                <div class="d-flex flex-column align-self-center">
+                                                    <p class="website_text_3 m-0">Harry Potter</p>
+                                                    <p class="website_text_4 m-0">Team Leader @ Gryffindor</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+
+                          <div class="carousel-item">
+                            <div class="slider justify-content-center">
+                                <div class="row">
+                                    <div class="col-12 col-md-4">
+                                        <div class="d-block d-none d-md-block slider_2 bg-white p-4">
+                                            <p class="website_text_2 mb-5">“Learning curve infrastructure value proposition advisor strategy user experience hypotheses investor.”</p>
+                                            <div class="d-flex flex-row">
+                                                <img src="pictures/footer-img-2.png" alt="" class="website_img">
+                                                <div class="d-flex flex-column align-self-center">
+                                                    <p class="website_text_3 m-0">Severus Snape</p>
+                                                    <p class="website_text_4 m-0">Manager @ Slytherin</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <div class="d-block slider_2 bg-white p-4">
+                                            <p class="website_text_2 mb-5">“Release facebook responsive web design business model canvas seed money monetization.”</p>
+                                            <div class="d-flex flex-row">
+                                                <img src="pictures/footer-img-3.png" alt="" class="website_img">
+                                                <div class="d-flex flex-column align-self-center">
+                                                    <p class="website_text_3 m-0">Harry Potter</p>
+                                                    <p class="website_text_4 m-0">Team Leader @ Gryffindor</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <div class="d-block d-none d-md-block slider_2 bg-white  p-4">
+                                            <p class="website_text_2 mb-5">“Buyer buzz partner network disruptive non-disclosure agreement business”</p>
+                                            <div class="d-flex flex-row">
+                                                <img src="pictures/footer-img-1.png" alt="" class="website_img">
+                                                <div class="d-flex flex-column align-self-center">
+                                                    <p class="website_text_3 m-0">Albus Dumbledore</p>
+                                                    <p class="website_text_4 m-0">Manager @ Howarts</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+
+                          <div class="carousel-item">
+                            <div class="slider justify-content-center">
+                                <div class="row">
+                                    <div class="col-12 col-md-4">
+                                        <div class="d-block d-none d-md-block slider_2 bg-white p-4">
+                                            <p class="website_text_2 mb-5">“Release facebook responsive web design business model canvas seed money monetization.”</p>
+                                            <div class="d-flex flex-row">
+                                                <img src="pictures/footer-img-3.png" alt="" class="website_img">
+                                                <div class="d-flex flex-column align-self-center">
+                                                    <p class="website_text_3 m-0">Harry Potter</p>
+                                                    <p class="website_text_4 m-0">Team Leader @ Gryffindor</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <div class="d-block slider_2 bg-white  p-4">
+                                            <p class="website_text_2 mb-5">“Buyer buzz partner network disruptive non-disclosure agreement business”</p>
+                                            <div class="d-flex flex-row">
+                                                <img src="pictures/footer-img-1.png" alt="" class="website_img">
+                                                <div class="d-flex flex-column align-self-center">
+                                                    <p class="website_text_3 m-0">Albus Dumbledore</p>
+                                                    <p class="website_text_4 m-0">Manager @ Howarts</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <div class="d-block d-none d-md-block slider_2 bg-white p-4">
+                                            <p class="website_text_2 mb-5">“Learning curve infrastructure value proposition advisor strategy user experience hypotheses investor.”</p>
+                                            <div class="d-flex flex-row">
+                                                <img src="pictures/footer-img-2.png" alt="" class="website_img">
+                                                <div class="d-flex flex-column align-self-center">
+                                                    <p class="website_text_3 m-0">Severus Snape</p>
+                                                    <p class="website_text_4 m-0">Manager @ Slytherin</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>                   
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="customers mb-5">
+        <div class="container">
+            <div class="row mb-4 mb-md-5">
+                <img src="pictures/customers-img.png" alt="">
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <p class="customers_text_1 text-center text-md-start">We connect our customers with the best, and help them keep up-and stay open.</p>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed btn_accordion" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                We connect our customers with the best?
+                            </button>
+                          </h2>
+                          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">We connect our customers with the best, and help them keep up-and stay open.</div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed btn_accordion" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                Android research & development rockstar? 
+                            </button>
+                          </h2>
+                          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">We connect our customers with the best, and help them keep up-and stay open.</div>
+                          </div>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="blog mb-5">
+        <div class="container">
+            <div class="row">
+                <p class="blog_text_1 text-center mt-4 mt-md-5">Our Blog</p>
+                <p class="blog_text_2 text-center mb-4 mb-md-5">Handshake infographic mass market crowdfunding iteration.</p>
+            </div>
+            <div class="row mb-md-5">
+                <div class="col-12 col-md-4 mb-5 mb-md-0 d-md-flex">
+                    <div class="blog_block">
+                        <div class="d-flex justify-content-center justify-content-md-start">
+                            <img src="pictures/blog-img-1.png" alt="" class="blog_img mb-4">
+                        </div>
+                        <div class="d-flex flex-row mb-3 mx-auto mx-md-0 justify-content-center justify-content-md-start">
+                            <p class = "blog_text_3 m-0 me-3 align-self-center">Category</p>
+                            <p class = "blog_text_4 m-0 align-self-center">November 22, 2021</p>
+                        </div>
+                        <p class = "blog_text_5 text-center text-md-start mb-3 mb-md-5">Pitch termsheet backing validation focus release.</p>
+                        <div class="block justify-content-center justify-content-md-start">
+                            <img src="pictures/chandler.png" alt="" class="blog_img_2">
+                            <p class="blog_text_6 m-0 ms-1 align-self-center">Chandler Bing</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 mb-5 mb-md-0 d-md-flex">
+                    <div class="blog_block">
+                        <div class="d-flex justify-content-center justify-content-md-start">
+                            <img src="pictures/blog-img-2.png" alt="" class="blog_img mb-4">
+                        </div>
+                        <div class="d-flex flex-row mb-3 mx-auto mx-md-0 justify-content-center justify-content-md-start">
+                            <p class = "blog_text_3 m-0 me-3 align-self-center">Category</p>
+                            <p class = "blog_text_4 m-0 align-self-center">November 22, 2021</p>
+                        </div>
+                        <p class = "blog_text_5 text-center text-md-start mb-3 mb-md-5">Seed round direct mailing non-disclosure agreement graphical user interface rockstar.</p>
+                        <div class="block justify-content-center justify-content-md-start">
+                            <img src="pictures/raichel.png" alt="" class="blog_img_2">
+                            <p class="blog_text_6 m-0 ms-1 align-self-center">Rachel Green</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 mb-5 mb-md-0 d-md-flex">
+                    <div class="blog_block">
+                        <div class="d-flex justify-content-center justify-content-md-start">
+                            <img src="pictures/blog-img-3.png" alt="" class="blog_img mb-4">
+                        </div>
+                        <div class="d-flex flex-row mb-3 mx-auto mx-md-0 justify-content-center justify-content-md-start">
+                            <p class = "blog_text_3 m-0 me-3 align-self-center">Category</p>
+                            <p class = "blog_text_4 m-0 align-self-center">November 22, 2021</p>
+                        </div>
+                        <p class = "blog_text_5 text-center text-md-start mb-3 mb-md-5">Beta prototype sales iPad gen-z marketing network effects value proposition.</p>
+                        <div class="block justify-content-center justify-content-md-start">
+                            <img src="pictures/monica.png" alt="" class="blog_img_2">
+                            <p class="blog_text_6 m-0 ms-1 align-self-center">Monica Geller</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 d-flex justify-content-center">
+                    <button class="btn btn-primary blog_btn px-4 px-md-5 py-2">Load more</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="contact mb-5">
+        <div class="container contact_container">
+            <div class="row">
+                <p class = "contact_text_1 text-center text-white mb-4 mb-md-5 mt-4 mt-md-5 z-3">An enterprise template to ramp <br> up your company website</p>
+            </div>
+            <div class="row">
+                <form action="" class="d-flex justify-content-center">
+                    <div class="row mb-3 z-3">
+                        <div class="col align-self-center mb-4 mb-md-5">
+                            <input type="email" class="form-control ps-4 pe-5 py-2" id="exampleInputEmail1" placeholder="Your email address" aria-describedby="emailHelp">
+                        </div>
+                        <div class="col align-self-center d-flex justify-content-end mb-4 mb-md-5">
+                            <button type="submit" class="btn btn-primary contact_btn px-4 px-md-5 py-2 text-nowrap">Start now</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-5 mt-0 mt-md-5">
+                    <img src="pictures/logo-2.png" alt="" class="footer_logo mb-4 mb-md-5">
+                    <p class="footer_text_1 mb-4 mb-md-5">Social media validation business model canvas graphical user interface launch party creative facebook iPad twitter.</p>
+                    <p class="footer_text_1 mb-5 mb-md-0">All rights reserved.</p>
+                </div>
+                <div class="col-12 col-md-7 mt-0 mt-md-5">
+                    <div class="row">
+                        <div class="col-4 d-flex flex-column">
+                            <p class="footer_text_2 mb-4 mb-md-5">Landings</p>
+                            <a class="footer_text_3 footer_text text-decoration-none" href="#product">Home</a>
+                            <a class="footer_text_3 footer_text text-decoration-none" href="#product">Products</a>
+                            <a class="footer_text_3 text-decoration-none" href="#services">Services</a>
+                        </div>
+                        <div class="col-4">
+                            <p class="footer_text_2 mb-4 mb-md-5">Company</p>
+                            <p class="footer_text_3">Home</p>
+                            <p class="footer_text_3">Careers</p>
+                            <p class="footer_text_3">Services</p>
+                        </div>
+                        <div class="col-4">
+                            <p class="footer_text_2 mb-4 mb-md-5">Resources</p>
+                            <p class="footer_text_3">Blog</p>
+                            <p class="footer_text_3">Products</p>
+                            <p class="footer_text_3">Services</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+        const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+    </script>
+</body>
+</html>
